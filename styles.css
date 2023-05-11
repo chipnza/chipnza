@@ -2960,7 +2960,6 @@ html {
   
   .nav-logo-wrap {
     flex: none;
-    padding-top: 30px;
   }
   
   .image-licensing {
@@ -3257,6 +3256,7 @@ html {
   
     .brand {
       padding-left: 18px;
+      padding-top: 30px;
     }
   
     .heading-3 {
