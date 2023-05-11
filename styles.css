@@ -2960,6 +2960,7 @@ html {
   
   .nav-logo-wrap {
     flex: none;
+    padding-top: 30px;
   }
   
   .image-licensing {
