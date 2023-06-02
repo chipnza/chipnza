@@ -2260,7 +2260,7 @@ a {
   justify-content: center;
   align-items: center;
   padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
   display: flex;
 }
 
@@ -2963,20 +2963,22 @@ a {
   height: 44vh;
   background-color: rgba(0, 0, 0, 0);
   margin-top: 10vh;
+  margin-bottom: auto;
 }
 
 .slider-arrow {
   color: #d6d6d6;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .quote-wrap {
-  width: 50vw;
+  width: 70%;
   text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   display: block;
 }
 
@@ -3085,6 +3087,10 @@ a {
   overflow: visible;
 }
 
+.mover {
+  overflow: visible;
+}
+
 .checkbox-label {
   width: 120%;
   color: #fff;
@@ -3149,6 +3155,7 @@ a {
 
 .cloneable-area {
   min-height: 50vh;
+  margin-top: auto;
 }
 
 .c-note {
@@ -3282,6 +3289,8 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: auto;
+  padding-bottom: 10px;
   display: flex;
 }
 
@@ -3727,6 +3736,54 @@ a {
   max-width: 80%;
 }
 
+.italic-text {
+  font-size: 20px;
+}
+
+.heading-13 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.italic-text-2 {
+  padding-left: 3px;
+  font-style: normal;
+}
+
+.italic-text-3 {
+  font-style: normal;
+}
+
+.bold-text-20 {
+  padding-left: 3px;
+}
+
+.image-12 {
+  width: 30%;
+  max-width: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: auto;
+}
+
+.image-12-copy {
+  width: 30%;
+  max-width: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
 @media screen and (max-width: 991px) {
   h2 {
     font-size: 34px;
@@ -3918,6 +3975,22 @@ a {
   .image-11 {
     max-width: 70%;
   }
+
+  .image-12 {
+    margin-left: 10px;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: auto;
+  }
+
+  .image-12-copy {
+    margin-right: 10px;
+    top: 0%;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3945,8 +4018,7 @@ a {
     z-index: auto;
     width: 80%;
     object-position: 50% 50%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding: 20px 40px;
     display: block;
     position: static;
@@ -4043,6 +4115,10 @@ a {
     width: 100%;
   }
 
+  .image-5 {
+    text-align: left;
+  }
+
   .popup {
     display: none;
   }
@@ -4090,6 +4166,25 @@ a {
 
   .image-11 {
     max-width: 60%;
+  }
+
+  .heading-13 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .image-12 {
+    margin-left: 10px;
+  }
+
+  .image-12-copy {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  .heading-14 {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
@@ -4222,6 +4317,7 @@ a {
   }
 
   .heading-3 {
+    text-align: center;
     font-size: 42px;
     line-height: 56px;
   }
